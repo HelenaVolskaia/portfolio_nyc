@@ -25,6 +25,7 @@ var navbar_initialized,
     backgroundOrange = false,
     toggle_initialized = false;
 
+
 $(document).ready(function() {
     //  Activate the Tooltips
     $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
