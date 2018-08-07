@@ -24,10 +24,7 @@ var fixedTop = false;
 var navbar_initialized,
     backgroundOrange = false,
     toggle_initialized = false;
-$(window).load(function() {
-    // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");;
-});
+
 $(document).ready(function() {
     //  Activate the Tooltips
     $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
@@ -105,7 +102,7 @@ $(document).ready(function() {
 // $(window).load(function() {
 //         // Animate loader off screen
 //         $(".se-pre-con").fadeOut("slow");;
-//     }); 
+//     });
 $(window).on('resize', function() {
     nowuiKit.initNavbarImage();
 });
