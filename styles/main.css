@@ -5607,6 +5607,9 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 991px) {
+  #image {
+    display: none;
+  }
   .sidebar-collapse .navbar-collapse {
     position: fixed;
     display: block;
